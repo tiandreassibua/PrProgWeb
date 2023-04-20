@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a.back {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 47%;
+    padding: 5px 15px;
+    color: #301e67;
+    border: 1px solid #301e67;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Poppins;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a.back:hover {
+    background-color: #f0f0f0;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    padding: 0 10%;
+    background: #301e67;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    width: 8.1rem;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.header {
+    margin: 25px 0;
+    text-align: center;
+    font-family: Poppins;
+}
+
+table {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border: 1px dashed gray;
+    border-radius: 10px;
+}
+
+td {
+    padding: 10px 0;
+}
+
+td > img {
+    width: 100%;
+    padding-bottom: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+td label {
+    font-weight: bold;
+}
+
+.levelPentingTinggi {
+    background-color: #e90064;
+    border-radius: 10px;
+    height: auto;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 400;
+    padding: 0 10px;
+    color: white;
+    width: 12%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #301e67;
+    color: white;
+}
+
+footer span {
+  color: red;
+}
+
+footer ol {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+}
+
+.ukdw {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: solid 5px;
+    border-radius: 10px;
+}

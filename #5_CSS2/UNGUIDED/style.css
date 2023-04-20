@@ -1,0 +1,58 @@
+html {
+    background-color: antiquewhite;
+}
+
+body {
+    width: 50%;
+    margin: 0 auto;
+    border: 10px solid pink;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+main h2 {
+    color: coral;
+}
+
+header p:nth-child(even) {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+}
+
+header h2~p {
+    text-align: justify;
+}
+
+div>p {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: gray;
+    color: white;
+}
+
+td {
+    background-color: lightgrey;
+}
+
+tr:nth-child(even), tr:nth-child(even) td {
+    background-color: lightblue;
+}
+
+td:nth-child(even) {
+    background-color: greenyellow;
+}

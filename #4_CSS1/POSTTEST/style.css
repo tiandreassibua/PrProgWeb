@@ -1,0 +1,70 @@
+header {
+    /* kode hex abu-abu muda */
+    background: rgb(227, 226, 226);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header > h1 {
+    word-spacing: 10px;
+}
+
+main {
+    background: url("./background.png");
+}
+
+img {
+    border: 5px dotted rgb(190, 19, 19);
+}
+
+.textHighlight {
+    background-color: rgb(255, 138, 138);
+}
+
+.movie_desc {
+    text-indent: 10%;
+}
+
+.textBold {
+    font-weight: bold;
+}
+
+.textBoldUnderline {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.textUnderline {
+    text-decoration: underline;
+}
+
+.textItalic {
+    font-style: italic;
+}
+
+#kategori_tokoh {
+    list-style-type: decimal-leading-zero;
+    font-weight: bold;
+}
+
+.tokoh {
+    list-style-image: url("./logo.png");
+    font-weight: normal;
+}
+
+#movie_table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#movie_table, #movie_table th, #movie_table td {
+    border: 2px solid rgb(190, 19, 19);
+}
+
+#movie_table > thead {
+    background-color: yellow;
+}
+
+#movie_table > tbody > tr:nth-child(odd) {
+    background-color: orange;
+}

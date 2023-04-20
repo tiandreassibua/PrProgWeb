@@ -1,0 +1,98 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-color: gray;
+}
+header{
+    padding: 30px;
+    height: 20px;
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+header > div {
+    position: relative;
+    margin-left: 60px;
+}
+
+header > div > a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+img#logo{
+    float: left;
+    width: 50px;
+    position: absolute;
+    top: 15px;
+}
+article > img{
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+h2{
+    color: black;
+}
+main article{
+    width: 65%;
+    border-radius: 20px;
+    padding: 33px;
+    margin: 10px;
+    height: 700px;
+    float: left;
+}
+aside{
+    width: 25%;
+    border-radius: 20px;
+    height: 700px;
+    padding: 30px;
+    margin: 10px;
+    float: right;
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 12px;
+    background-color: green;
+    clear: both;
+}
+
+aside > img {
+    border: 3px dashed yellow;
+    border-radius: 10px;
+}
+.biru{
+    color: rgb(52, 52, 202);
+}
+.headerArea{
+    float: right;
+}
+
+.headerArea > a {
+    text-decoration: none;
+    color: blue;
+}
+.underline-article > p{
+    margin-left: 25px;
+    display: block;
+    border-bottom: 5px solid black;
+    color: white;
+}
+
+.underline > p{
+    margin-left: 25px;
+    display: block;
+    border-bottom: 5px solid white;
+    color: white;
+}
+
+.clearfix {
+    height: 100px;
+}
