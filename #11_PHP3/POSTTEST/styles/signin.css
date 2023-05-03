@@ -1,0 +1,71 @@
+* {margin: 0; padding: 0;}
+
+html {
+  height: 100%;
+  background: 
+    linear-gradient(rgba(221, 74, 21, 0.6), rgba(51, 18, 45, 0.6));
+}
+
+main{
+    margin: auto;
+    width: 30%;
+    padding-top: 90px;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 0%;
+}
+
+#msform img{
+    margin: 0 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#msform h1{
+    text-align: center;
+    font-size: 27px;
+}
+
+#msform a{
+    font-size: 14px;
+    margin: 0px 30%;
+}
+
+#msform input, #msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 15px;
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 33%;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
